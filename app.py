@@ -6,7 +6,7 @@ app = Flask(__name__)
 def status():
     return{'servico': 'OpsTrackAPI', 'status': 'online'}
 
-@app.route('/sobre')
+@app.route('/sobre'
 def sobre():
     return{'OpsTrack API - Version: 1.0.0'}
 
