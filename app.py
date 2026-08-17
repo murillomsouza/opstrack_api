@@ -1,5 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
+
+#Retorna o Status da aplicação
 @app.route('/status')
 def status():
     return{'servico': 'OpsTrackAPI', 'status': 'online'}
